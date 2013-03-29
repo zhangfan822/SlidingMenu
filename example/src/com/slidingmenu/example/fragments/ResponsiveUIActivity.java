@@ -11,6 +11,7 @@ import com.actionbarsherlock.view.MenuItem;
 import com.slidingmenu.example.R;
 import com.slidingmenu.lib.SlidingMenu;
 import com.slidingmenu.lib.app.SlidingFragmentActivity;
+import com.slidingmenu.lib.app.SlidingSherlockFragmentActivity;
 
 /**
  * This activity is an example of a responsive Android UI.
@@ -23,7 +24,7 @@ import com.slidingmenu.lib.app.SlidingFragmentActivity;
  * @author jeremy
  *
  */
-public class ResponsiveUIActivity extends SlidingFragmentActivity {
+public class ResponsiveUIActivity extends SlidingSherlockFragmentActivity {
 
 	private Fragment mContent;
 

@@ -15,8 +15,9 @@ import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
 import com.slidingmenu.lib.SlidingMenu;
 import com.slidingmenu.lib.app.SlidingFragmentActivity;
+import com.slidingmenu.lib.app.SlidingSherlockFragmentActivity;
 
-public class BaseActivity extends SlidingFragmentActivity {
+public class BaseActivity extends SlidingSherlockFragmentActivity {
 
 	private int mTitleRes;
 	protected ListFragment mFrag;
